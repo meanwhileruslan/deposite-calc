@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.wrapper_calc {
+  background-color: #292929;
+  height: 620px;
+  padding: 40px;
+}
+
+.calc_section {
+  background-color: #0089ff;
+  border-radius: 15px;
+  padding: 25px;
+  width: auto;
+  height: 430px;
+  margin: auto;
+}
+
+.form-control {
+  border-radius: 15px !important;
+  background-color: #fff0 !important;
+  border: 1px solid #ffff !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  height: 50px;
+}
+
+.form-control::placeholder {
+  color: #ffffff !important;
+}
+
+.btn_click {
+  width: 25%;
+  height: 40px;
+  color: #ffff !important;
+  border: 1px solid #ffff !important;
+  border-radius: 15px !important;
+  font-weight: bold !important;
+}
+
+.view_section {
+  background-color: #ffffff;
+  height: 240px;
+  border-radius: 15px;
+}
